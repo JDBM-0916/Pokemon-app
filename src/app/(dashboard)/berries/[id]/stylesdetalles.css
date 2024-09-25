@@ -1,0 +1,72 @@
+.berry-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 2.5rem auto;
+  padding: 1.5rem;
+  border-radius: 30px;
+  color: #3bceac;
+  position: relative;
+}
+
+.berry-card h1,
+.berry-card h2,
+.berry-card h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.berry-card .berry-name {
+  font-size: 1.875rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+  color: #25d366;
+}
+
+.berry-card .berry-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.berry-card .berry-info > div {
+  background-color: #ffffff13;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  transition: box-shadow 300ms;
+}
+
+.berry-card .berry-info > div:hover {
+  box-shadow: 0 4px 8px rgba(42, 44, 44, 0.705);
+}
+
+.berry-card .flavors {
+  grid-column: span 2;
+}
+
+.berry-card .flavors-list,
+.berry-card .attributes-list,
+.berry-card .natural-gift-info,
+.berry-card .item-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.berry-card .flavors-list span,
+.berry-card .attributes-list span,
+.berry-card .natural-gift-info span,
+.berry-card .item-info span {
+  margin: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: #dbeafe;
+  color: #1e40af;
+}

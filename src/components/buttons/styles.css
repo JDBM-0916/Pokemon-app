@@ -1,0 +1,23 @@
+.back-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 20px; /* Ajusta la distancia desde la parte inferior */
+  right: 30px; /* Ajusta la distancia desde la parte derecha */
+}
+
+.back-button:hover {
+  background-color: #22b357;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
