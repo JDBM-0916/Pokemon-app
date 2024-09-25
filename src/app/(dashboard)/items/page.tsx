@@ -17,7 +17,7 @@ export default async function ItemsPage() {
   return (
     <div>
       <h1 className="main-title">
-        "listado de Objetos!"
+        listado de Objetos
       </h1>
       <ItemsGrid Items={Items} />
     </div>

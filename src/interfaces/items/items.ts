@@ -1,19 +1,19 @@
-export interface Items{
-  attributes:          Category[];
-  baby_trigger_for:    null;
-  category:            Category;
-  cost:                number;
-  effect_entries:      EffectEntry[];
+export interface Items {
+  attributes: Category[];
+  baby_trigger_for: null;
+  category: Category;
+  cost: number;
+  effect_entries: EffectEntry[];
   flavor_text_entries: FlavorTextEntry[];
-  fling_effect:        null;
-  fling_power:         null;
-  game_indices:        GameIndex[];
-  held_by_pokemon:     any[];
-  id:                  number;
-  machines:            any[];
-  name:                string;
-  names:               Name[];
-  sprites:             Sprites;
+  fling_effect: null;
+  fling_power: null;
+  game_indices: GameIndex[];
+  held_by_pokemon: string[];
+  id: number;
+  machines: string[];
+  name: string;
+  names: Name[];
+  sprites: Sprites;
 }
 
 export interface Category {

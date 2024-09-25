@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link';
-import { MdCatchingPokemon, MdClose, MdMenu, MdSearch } from 'react-icons/md';
+import { MdCatchingPokemon, MdClose, MdMenu} from 'react-icons/md';
 import './Navbar.css';
 import { NavbariItem } from './NavbarItem';
 import { useState } from 'react';

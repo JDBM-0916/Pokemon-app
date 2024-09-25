@@ -1,5 +1,5 @@
 export interface Games {
-  abilities:       any[];
+  abilities:       string[];
   id:              number;
   main_region:     MainRegion;
   moves:           MainRegion[];

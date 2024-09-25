@@ -16,10 +16,10 @@ export default async function PokemonesPage() {
   return (
     <div>
       <h1 className="main-title">
-        "Listado completo de Berries, las cuales ofrecen efectos únicos para
-        curar, mejorar estadísticas y reducir daño en combate."
+        Listado completo de Berries, las cuales ofrecen efectos únicos para
+        curar, mejorar estadísticas y reducir daño en combate
       </h1>
-      <BerriesGrid Berries={berries} cant={cant_berries}/>
+      <BerriesGrid Berries={berries} cant={cant_berries} />
     </div>
   );
 }

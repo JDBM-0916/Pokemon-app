@@ -16,7 +16,7 @@ export default async function contestPage() {
   return (
     <div>
       <h1 className="main-title">
-        "¡Concursos en donde se  Demuestra la Grandeza Pokémon y se Conquista la Gloria!"
+        Concursos en donde se  Demuestra la Grandeza Pokémon y se Conquista la Gloria
       </h1>
       <ContestGrid Contests={contests}/>
     </div>

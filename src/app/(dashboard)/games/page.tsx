@@ -18,7 +18,7 @@ export default async function GamesPage() {
   return (
     <div>
       <h1 className="main-title">
-        "Juegos por Generaciones Pokemon!"
+        Juegos por Generaciones Pokemon
       </h1>
       <GamesGrid Games={games} />
     </div>

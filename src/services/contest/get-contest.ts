@@ -1,6 +1,7 @@
 import { POKEAPI_BASE_URL, REVALIDATE_TIME } from "@/config/api";
 import { ContestSimples } from "@/interfaces/contest/contest-simple";
-import { ContestRespuesta } from "@/interfaces/pokemones/pokemonesRespuesta";
+import { ContestRespuesta } from "@/interfaces/contest/contestRespuesta";
+
 
 export const getContest = async (
   limit = 20,

@@ -1,4 +1,5 @@
-export interface PokemonesRespuesta {
+
+export interface ContestRespuesta {
   count: number;
   next: string;
   previous: null;

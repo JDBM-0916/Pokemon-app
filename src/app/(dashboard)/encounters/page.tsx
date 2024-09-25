@@ -16,7 +16,7 @@ export default async function EncountersPage() {
   return (
     <div>
       <h1 className="main-title">
-        "a continuacion se pueden ver los Métodos mediante los cuales el jugador puede encontrarse con Pokémon en estado salvaje!"
+        a continuacion se pueden ver los Métodos mediante los cuales el jugador puede encontrarse con Pokémon en estado salvaje
       </h1>
       <EncountersGrid Encounters={encounters}/>
     </div>
